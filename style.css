@@ -1,0 +1,27 @@
+#inputArea {
+  text-align: center;
+  margin-top: 52px;
+  margin-left: relative;
+  height: 90px;
+}
+
+#heading {
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+}
+
+#description {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+#btn {
+  margin: 5px;
+  margin-top: 0px;
+}
+
+body {
+  background-color: rgb(2, 2, 109);
+}
