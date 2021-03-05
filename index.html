@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js"></script>
+    <title>Todo App</title>
+  </head>
+  <body>
+    <h1 id="heading">The TODO app.</h1>
+    <h4 id="description">Click to complete. Double click to delete.</h4>
+    <div id="inputArea" class="container">
+      <input
+        type="text"
+        id="inputField"
+        class="alert alert-success m-2"
+        size="50px"
+        placeholder="Enter task here (22 Chars)"
+        maxlength="22"
+      /><button class="alert alert-info" id="btn" onclick="main()">+</button>
+    </div>
+
+    <hr />
+    <div id="todo" class="container">
+      <p id="showEditingTime"></p>
+    </div>
+  </body>
+</html>
